@@ -141,9 +141,9 @@ if __name__ == "__main__":
 
 ```
 ### Output <br/>
-![Tabel waktu eksekusi](images/tabel.jpg)
+![Tabel waktu eksekusi](images/tabelFix.png)
 
-![Tabel diagram waktu eksekusi](images/diagram.jpg)
+![Tabel diagram waktu eksekusi](images/diagramfix.png)
 ### Kesimpulan <br/>
 Dari tabel, hasil pencarian membuktikan bahwa kedua metode mampu menemukan target dengan hasil yang sama (indeks target yang sesuai), namun rekursif secara konsisten lebih cepat. Hal ini menunjukkan bahwa dalam skenario pencarian sederhana seperti ini, metode rekursif menawarkan efisiensi waktu yang lebih baik dibandingkan iteratif.
 
