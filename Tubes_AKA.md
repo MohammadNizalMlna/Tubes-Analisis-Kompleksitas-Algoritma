@@ -7,6 +7,11 @@ Mohammad Nizal Maulana - 2311102150 </br>
 Kelas S1IF-11-04</br>
 Telkom University Purwokerto <br/>
 
+### Binary Search <br/>
+Binary search adalah algoritma pencarian yang digunakan untuk menemukan posisi suatu elemen dalam daftar yang sudah diurutkan. Algoritma ini bekerja dengan membagi daftar menjadi dua bagian pada setiap langkah. Proses dimulai dengan membandingkan elemen tengah daftar dengan elemen yang dicari. Jika elemen tengah sama dengan elemen yang dicari, maka proses pencarian selesai. Namun, jika elemen tengah lebih besar, pencarian dilanjutkan ke bagian kiri daftar, sedangkan jika elemen tengah lebih kecil, pencarian diteruskan ke bagian kanan. Dengan cara ini, binary search secara sistematis mempersempit ruang pencarian hingga elemen ditemukan atau hingga ruang pencarian habis.
+Algoritma ini sangat efisien karena mengurangi jumlah elemen yang harus diperiksa secara eksponensial. Dengan kompleksitas waktu rata-rata sebesar
+O(logn), binary search jauh lebih cepat dibandingkan metode pencarian linear untuk daftar yang besar. Namun, salah satu syarat utama penggunaannya adalah daftar harus diurutkan terlebih dahulu. Jika daftar belum diurutkan, algoritma ini tidak dapat diterapkan dengan benar. Binary search sering digunakan dalam berbagai aplikasi, seperti pencarian data dalam basis data, pengambilan informasi, dan operasi pada array yang telah diurutkan.
+
 ### Algoritma Binary Search dengan pendekatan rekursif <br/>
 Binary Search dengan pendekatan rekursif adalah algoritma pencarian efisien yang digunakan untuk menemukan elemen dalam array yang telah diurutkan. Algoritma ini membagi ruang pencarian menjadi dua bagian secara berulang hingga elemen yang dicari ditemukan atau ruang pencarian habis. Dalam pendekatan rekursif, fungsi akan memeriksa elemen tengah array. Jika elemen tengah adalah elemen yang dicari, pencarian selesai. Jika elemen yang dicari lebih kecil dari elemen tengah, fungsi akan memanggil dirinya sendiri pada separuh kiri array. Sebaliknya, jika elemen yang dicari lebih besar, fungsi akan memanggil dirinya sendiri pada separuh kanan array. Proses ini berlanjut hingga elemen ditemukan atau batas pencarian menyempit menjadi nol. Pendekatan ini memanfaatkan prinsip "divide and conquer" dengan kompleksitas waktu O(log n)
 
@@ -145,14 +150,4 @@ if __name__ == "__main__":
 
 ![Tabel diagram waktu eksekusi](images/diagramfix.png)
 ### Kesimpulan <br/>
-Dari tabel, hasil pencarian membuktikan bahwa kedua metode mampu menemukan target dengan hasil yang sama (indeks target yang sesuai), namun rekursif secara konsisten lebih cepat. Hal ini menunjukkan bahwa dalam skenario pencarian sederhana seperti ini, metode rekursif menawarkan efisiensi waktu yang lebih baik dibandingkan iteratif.
-
-Berdasarkan data dan grafik yang ditampilkan, kompleksitas waktu untuk pencarian iteratif dan rekursif dalam kasus ini sama, yaitu O(n), di mana 𝑛 n adalah jumlah elemen dalam daftar.
-
-- Iteratif: Metode iteratif melakukan pencarian linear dari indeks pertama hingga menemukan target. Dalam kasus terburuk, ia harus memeriksa seluruh elemen, sehingga kompleksitasnya adalah 𝑂(𝑛).
-- Rekursif: Pencarian rekursif juga bekerja dengan cara yang sama, memeriksa satu per satu elemen dari awal hingga target ditemukan. Karena setiap pemanggilan rekursif mengurangi ukuran daftar (atau mempersempit pencarian satu langkah), kompleksitasnya tetap O(n).
-
-- Meskipun kompleksitas waktu keduanya 𝑂(𝑛), metode rekursif lebih cepat dalam hal durasi aktual karena overhead fungsi iteratif (misalnya, perulangan) lebih tinggi dibandingkan overhead pemanggilan rekursif pada skala kecil ini.
-- Perbedaan ini lebih terlihat pada skala kecil, tetapi seiring bertambahnya ukuran data, performa rekursif bisa menurun karena overhead stack (rekursi mendalam)
-
-Jadi Kompleksitas waktu untuk pencarian iteratif dan rekursif adalah O(n). Namun, dalam implementasi praktis, rekursif lebih cepat dalam skala kecil karena overhead iteratif lebih besar dibandingkan rekursif.
+belum jir
