@@ -87,6 +87,6 @@ if __name__ == "__main__":
     plt.ylabel("Durasi (detik)")
     plt.title("Perbandingan Waktu Pencarian (Diagram Garis)")
     plt.legend()
-    plt.xticks(rotation=45)  # Agar nama target tidak tumpang tindih
-    plt.tight_layout()  # Menyesuaikan tampilan agar tidak terpotong
+    plt.xticks(rotation=45)  
+    plt.tight_layout()  
     plt.show()

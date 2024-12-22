@@ -140,8 +140,8 @@ if __name__ == "__main__":
     plt.ylabel("Durasi (detik)")
     plt.title("Perbandingan Waktu Pencarian (Diagram Garis)")
     plt.legend()
-    plt.xticks(rotation=45)  # Agar nama target tidak tumpang tindih
-    plt.tight_layout()  # Menyesuaikan tampilan agar tidak terpotong
+    plt.xticks(rotation=45)  
+    plt.tight_layout()  
     plt.show()
 
 ```
@@ -149,5 +149,13 @@ if __name__ == "__main__":
 ![Tabel waktu eksekusi](images/tabelFix.png)
 
 ![Tabel diagram waktu eksekusi](images/diagramfix.png)
+
+### Analis <br/>
+Berdasarkan tabel yang disajikan, hasil pencarian menggunakan metode iteratif dan rekursif menunjukkan bahwa keduanya mampu menemukan target dengan akurasi yang sama, di mana setiap target seperti "Adam," "Brian," "Jack," dan "Wendy" ditemukan pada indeks yang sesuai dalam data. Namun, terdapat perbedaan kecil dalam durasi waktu pencarian antara kedua metode. Metode iteratif cenderung membutuhkan waktu sedikit lebih lama dibandingkan metode rekursif. Sebagai contoh, pencarian nama "Adam" dengan metode iteratif membutuhkan waktu 0.00007 detik, sedangkan metode rekursif hanya membutuhkan waktu 0.00005 detik. Hal serupa terjadi pada pencarian nama lainnya, di mana rekursif consistently menunjukkan durasi yang lebih pendek dibandingkan iteratif. Meski perbedaan waktu ini sangat kecil dan berada dalam kisaran mikrodetik, hasil ini menunjukkan bahwa metode rekursif lebih efisien dalam konteks waktu. Dengan demikian, kedua metode dapat digunakan secara efektif untuk pencarian data, tetapi rekursif dapat menjadi pilihan yang lebih baik jika efisiensi waktu menjadi prioritas. namun hal ini juga dipengaruhi oleh panjangnya data, besarnya index yang di inputkan dan spesifikasi perangkat 
+
+ kompleksitas waktu untuk metode pencarian tersebut adalah O(log N). Namun, ini hanya berlaku jika daftar kontak sudah terurut.
+
 ### Kesimpulan <br/>
-belum jir
+Kesimpulan dari percobaan diatas, dapat disimpulkan bahwa Algoritma Iteratif menggunakan perulangan kalau dalam kode yang kami buat algoritma iteratif terdapat sebuah perulangan yaitu while. Alur eksekusi rekursif mengulang pengecekan dan pembaruan batas pencarian dalam sebuah loop hingga ditemukan elemen atau tidak ada lagi ruang pencarian.
+Algoritma Rekursif Menggunakan rekursi (panggilan fungsi dalam fungsi itu sendiri) untuk memecah masalah menjadi sub-masalah lebih kecil.Fungsi mulai dengan mendefinisikan batas pencarian, kemudian memanggil dirinya sendiri dengan batas yang lebih kecil sampai kondisi pencarian tercapai.
+dan juga waktu eksekusi dari algoritma rekursif lebih cepat dibandingkan dengan iteratif. Kedua algoritma binary search ini (iteratif dan rekursif) sama sama memiliki kompleksitas waktu O(log n).
