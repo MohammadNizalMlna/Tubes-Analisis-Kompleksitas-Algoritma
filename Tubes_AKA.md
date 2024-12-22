@@ -7,6 +7,9 @@ Mohammad Nizal Maulana - 2311102150 </br>
 Kelas S1IF-11-04</br>
 Telkom University Purwokerto <br/>
 
+### Studi Kasus </br>
+Studi kasus dalam analisis perbandingan algoritma binary search (rekursif) dan binary search (iteratif) difokuskan pada efisiensi waktu pencarian kontak telepon dalam daftar yang sudah terurut secara alfabetis. dengan data sebanyak 26 data kontak, Analisis dilakukan untuk membandingkan waktu eksekusi kedua algoritma dalam menemukan nama. Tujuannya adalah menentukan algoritma yang lebih cepat dalam skenario pencarian data sederhana.
+
 ### Binary Search <br/>
 Binary search adalah algoritma pencarian yang digunakan untuk menemukan posisi suatu elemen dalam daftar yang sudah diurutkan. Algoritma ini bekerja dengan membagi daftar menjadi dua bagian pada setiap langkah. Proses dimulai dengan membandingkan elemen tengah daftar dengan elemen yang dicari. Jika elemen tengah sama dengan elemen yang dicari, maka proses pencarian selesai. Namun, jika elemen tengah lebih besar, pencarian dilanjutkan ke bagian kiri daftar, sedangkan jika elemen tengah lebih kecil, pencarian diteruskan ke bagian kanan. Dengan cara ini, binary search secara sistematis mempersempit ruang pencarian hingga elemen ditemukan atau hingga ruang pencarian habis.
 Algoritma ini sangat efisien karena mengurangi jumlah elemen yang harus diperiksa secara eksponensial. Dengan kompleksitas waktu rata-rata sebesar
