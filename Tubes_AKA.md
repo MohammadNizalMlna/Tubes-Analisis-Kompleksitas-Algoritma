@@ -161,4 +161,4 @@ Berdasarkan tabel yang disajikan, hasil pencarian menggunakan metode iteratif da
 ### Kesimpulan <br/>
 Kesimpulan dari percobaan diatas, dapat disimpulkan bahwa Algoritma Iteratif menggunakan perulangan kalau dalam kode yang kami buat algoritma iteratif terdapat sebuah perulangan yaitu while. Alur eksekusi rekursif mengulang pengecekan dan pembaruan batas pencarian dalam sebuah loop hingga ditemukan elemen atau tidak ada lagi ruang pencarian.
 Algoritma Rekursif Menggunakan rekursi (panggilan fungsi dalam fungsi itu sendiri) untuk memecah masalah menjadi sub-masalah lebih kecil.Fungsi mulai dengan mendefinisikan batas pencarian, kemudian memanggil dirinya sendiri dengan batas yang lebih kecil sampai kondisi pencarian tercapai.
-dan juga waktu eksekusi dari algoritma rekursif lebih cepat dibandingkan dengan iteratif. Kedua algoritma binary search ini (iteratif dan rekursif) sama sama memiliki kompleksitas waktu O(log n). ABCDEFGHIJKLMN
+dan juga waktu eksekusi dari algoritma rekursif lebih cepat dibandingkan dengan iteratif. Kedua algoritma binary search ini (iteratif dan rekursif) sama sama memiliki kompleksitas waktu O(log n). 
